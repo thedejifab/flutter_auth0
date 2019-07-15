@@ -1,16 +1,9 @@
-# flutter_app
+# flutter_auth0
+A Flutter app secured with the Auth0 authorization code grant flow with PKCE.
 
-A new Flutter project.
+Built with Flutter 1.0+ and Dart 2.0+
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## How to run
+* Clone the repository and run the `flutter packages get` command to download dependencies.
+* Replace the <AUTH0_DOMAIN> and <CLIENT_ID> in placeholders `/lib/utils/url_utils.dart` with the actual values from your Auth0 dashboard.
+* In the project's root directory, execute the `flutter run` command with a mobile device connected to run the application.
